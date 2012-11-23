@@ -1,0 +1,154 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Mathilde';
+    src: url('mathilde-webfont.eot');
+    src: url('mathilde-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mathilde-webfont.woff') format('woff'),
+         url('mathilde-webfont.ttf') format('truetype'),
+         url('mathilde-webfont.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chopinscript';
+    src: url('chopinscript-webfont.eot');
+    src: url('chopinscript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('chopinscript-webfont.woff') format('woff'),
+         url('chopinscript-webfont.ttf') format('truetype'),
+         url('chopinscript-webfont.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { font-family: 'Mathilde', Arial, sans-serif;font-size:2em}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 { font-family: 'Chopinscript', Arial, sans-serif}
+
+/*Disposition des blocs*/
+
+body{background-color:#7eb612; width:100%}
+
+.page {
+    width: 80%;
+    max-width:40em;
+    min-width:30em;
+        background: none repeat scroll 0 0 transparent;
+        border: none;
+        box-shadow: none;
+}
+
+.hornav {
+    background-color: transparent;
+    border:none;
+   }
+   
+.hornav .on { 
+background:transparent;
+} 
+
+/*Titres*/
+
+.h1 a{
+	color:#FFFFFF;
+	font-size: 110%; 
+	text-transform: uppercase; font-family: 'Mathilde', Arial, sans-serif;
+	font-weight: 800}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,label {color: #7EB612}
+  
+#container{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 1em auto;
+    padding: 1em 2em;
+    border-radius:2em;
+	box-shadow:0 0 0.2em 0.2em rgba(255, 255, 255,0.99);
+    behavior: url(/PIE.htc); 	
+}
+
+
+
+/*Menus*/
+
+
+span.sep {
+    display: inline;
+}
+
+.resume .liste-items .item {
+    padding: 0.5em;
+}
+
+/*liens*/
+a{color:#7eb612}
+.hornav  a{
+	color:#FFFFFF; 
+	font-size: 1.5em;
+	}
+.hornav .item a:hover{background:none transparent;}
+
+.hornav .item a {
+    color: #FFFFFF;
+    font-size: 2em;
+    padding: 0.5em 0.5em 0 0.5em}
+
+.hornav .on a{ 
+	color:#000000;
+	background:transparent;
+} 
+
+
+#hierarchie, #hierarchie a,.h2, .h2 a, .h2 a:focus, .h2 a:hover, .h2 a:active {
+    color: #7EB612;
+}
+
+#footer a{color:#FFFFFF}
+
+/*bulles*/
+.bulles{position: absolute;  width:10em;}
+.top{right:0;top:0;}
+.bottom{left:-5em;bottom:5em; width:5em}
+.bulles span {
+	display:block;
+	border-radius: 45px;
+	background:#FFFFFF;
+	opacity:0.5;
+	padding:0;
+	position:absolute;}
+.bulle_1{
+	width:1em; 
+	height:1em;
+	line-height: 1em;
+	top:0.5em;
+	right:0}
+.bulle_2{height: 2em;
+    line-height: 1em;
+    right: 2.9em;
+    top: 1em;
+    width: 2em;}
+.bulle_3{
+	width:0.5em; 
+	height:0.5em;
+	line-height: 
+	0.5em;
+	top:1.5em;
+	right:0.75em}
+.bulle_4{height: 1.5em;
+    line-height: 1.5em;
+    right: 1.3em;
+    top: 3em;
+    width: 1.5em;}
+.bulle_5{
+    height: 0.25em;
+    line-height: 0.25em;
+    right: 0.25em;
+    top: 2.5em;
+    width: 0.25em;
+}
+
+.bottom .bulle_1{left:0}
+.bottom .bulle_2{left: 2.9em;}
+.bottom .bulle_3{left:0.75em}
+.bottom .bulle_4{left: 1.3em;}
+.bottom .bulle_5{left: 0.25em;}
+

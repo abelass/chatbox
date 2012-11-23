@@ -1,0 +1,25 @@
+<body>
+	<section class="page">
+	    <aside class="bulles top">
+	        <BOUCLE_bt(DATA){liste 1,2,3,4,5}>
+                <span class="bulle_#VALEUR">&nbsp;</span>
+            </BOUCLE_bt>
+	        
+	    </aside>
+		<header id="header"><INCLURE{fond=header/#ENV{type-page},env} /></header>
+		<nav class="hornav clearfix" id="nav"><INCLURE{fond=inclure/nav,env} /></nav>
+		<section class="container" id="container" role="main">
+			<section class="content" id="content"><INCLURE{fond=content/#ENV{type-page},env} /></section>
+			<aside class="extra1 col" id="extra1"><INCLURE{fond=extra1/#ENV{type-page},env} /></aside>
+			<aside class="extra2 col" id="extra2"><INCLURE{fond=extra2/#ENV{type-page},env} /></aside>
+		</section>
+		 <aside class="bulles bottom">
+		     <BOUCLE_bb(DATA){liste 1,2,3,4,5}>
+                <span class="bulle_#VALEUR">&nbsp;</span>
+            </BOUCLE_bb>
+            
+		     
+		 </aside>
+		<footer id="footer"><INCLURE{fond=footer/#ENV{type-page},env} /></footer>
+	</section>
+</body>
