@@ -1,0 +1,11 @@
+[(#REM) Choisis le squelettes selon la version spip, les squelettes, 
+inclus puevent être utiliés tels quels, il suffit de renommer le squelette correspondant à votre version]
+
+
+<BOUCLE_principale_rubrique(RUBRIQUES){id_rubrique}{tout}>
+	<INCLURE{fond=structure}{env}{id_secteur=#ID_SECTEUR}{type-page=rubrique}{composition=#COMPOSITION} />
+</BOUCLE_principale_rubrique>
+[(#ID_RUBRIQUE|AccesRestreint_rubrique_restreinte|oui)
+    <INCLURE{fond=login,url=#SELF}/>
+ ] 
+<//B_principale_rubrique>
