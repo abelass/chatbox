@@ -1,6 +1,8 @@
 <div class="boutons_edition">
     [(#ENV{page}|=={edition_publique}|oui)
+   <div>
     <a href="#URL_ARTICLE{#ENV{id_objet}}">Voir l'article</a>
+    </div>
     ]
 [(#SESSION{id_auteur}|oui)
 <div><a href="[(#URL_PAGE{edition_publique}|parametre_url{objet,article}|parametre_url{id_parent,#ID_RUBRIQUE})]"  rel="nofollow">Ajouter un article</a></div>
