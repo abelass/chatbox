@@ -22,7 +22,7 @@
 
 body { font-family: 'Mathilde', Arial, sans-serif;font-size:2em}
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 { font-family: 'Chopinscript', Arial, sans-serif}
+
 
 /*Disposition des blocs*/
 
@@ -53,7 +53,7 @@ body{background-color:#7eb612; width:100%}
 	font-weight: 800;
 	}
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,label {color: #7EB612;font-family: 'Mathilde', Arial, sans-serif;text-transform: uppercase;font-weight:bold}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,label {color: #7EB612;font-family: 'Mathilde', Arial, sans-serif;text-transform: capitalize;font-weight:bold}
   
 #container{
     background: none repeat scroll 0 0 #FFFFFF;
@@ -185,10 +185,14 @@ a{color:#7eb612}
 }
 
 .boutons_edition div a:hover, .boutons_edition div a:hover:active{
-	background: none repeat scroll 0 0 #9bb668;
+	background: none repeat scroll 0 0 #98b612;
 	text-shadow:1px 1px #000000;
 	box-shadow : inset 2px 2px 1px #888888;
 	text-decoration:none;
 	text-shadow:1px 1px #888888;	
 	behavior: url(/PIE.htc);
  	}
+
+.item .spip_doc_titre{text-align:left;}
+
+#outils{line-height:normal; font-size:0px}
