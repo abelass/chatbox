@@ -2,10 +2,9 @@
 *.pyc
 *.pyo
 .svn
-_svn
-config/connect.php
 IMG
-tmp
-local
+_svn
+connect.php
 dump
-
+local
+tmp
